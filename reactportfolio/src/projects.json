@@ -1,0 +1,44 @@
+[
+    {
+        "name":"Up for Beer Review",
+        "description":"An app for reviewing and discussing your favorite beers with others!",
+        "photo":"./images/1.jpg",
+        "repolink":"https://github.com/TMPeeler/Project-2",
+        "deplink":"https://upforbeerreview.herokuapp.com/"
+    },
+    {
+        "name":"Employee Directory",
+        "description":"A React based app designed to sort through and organize an employee database",
+        "photo":"./images/5.jpg",
+        "repolink":"https://github.com/markosanchez800/employee-directory",
+        "deplink":"https://markosanchez800.github.io/employee-directory/"
+    },
+    {
+        "name":"Vault Tec Memory Game",
+        "description":"A React based photo memory game!",
+        "photo":"./images/memgame.gif",
+        "repolink":"https://github.com/markosanchez800/vaultTecMemoryTest",
+        "deplink":"https://markosanchez800.github.io/vaultTecMemoryTest/"
+    },
+    {
+        "name":"Employee Tracker",
+        "description":"An app for organizing and managing your employees and their respective departments",
+        "photo":"./images/2.jpg",
+        "repolink":"https://github.com/markosanchez800/employee-tracker",
+        "deplink":"https://www.youtube.com/watch?v=FMF3f31wSOg&ab_channel=markosanchez"
+    },
+    {
+        "name":"Weather Dashboard",
+        "description":"An app for finding the forecast and current weather of any city",
+        "photo":"./images/4.jpg",
+        "repolink":"https://github.com/markosanchez800/weather-dashboard",
+        "deplink":"https://markosanchez800.github.io/weather-dashboard/"
+    },
+    {
+        "name":"Note Taker",
+        "description":"An app for taking notes and writing messages throughout the day!",
+        "photo":"./images/3.jpg",
+        "repolink":"https://github.com/markosanchez800/note-taker",
+        "deplink":"https://agile-scrubland-99672.herokuapp.com/notes"
+    }
+]
