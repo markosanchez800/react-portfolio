@@ -16,7 +16,7 @@
     {
         "name":"Vault Tec Memory Game",
         "description":"A React based photo memory game!",
-        "photo":"./images/memgame.gif",
+        "photo":"./images/memgamegif.gif",
         "repolink":"https://github.com/markosanchez800/vaultTecMemoryTest",
         "deplink":"https://markosanchez800.github.io/vaultTecMemoryTest/"
     },

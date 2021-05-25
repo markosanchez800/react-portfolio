@@ -1,0 +1,22 @@
+.card {
+    width: 50%;
+    align-items: center;
+    border: 10px solid grey;
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 420px;
+    margin-right: 420px;
+}
+
+.card > .img-container > img {
+    border: 10px solid rgb(79, 131, 79);
+    border-radius: 15px;
+    box-shadow: 0 6px 6px rgb(15, 91, 153), 0 6px 6px rgb(204, 191, 11);
+    width:500px;
+    height:300px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
