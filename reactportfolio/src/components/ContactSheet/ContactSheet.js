@@ -11,7 +11,7 @@ function ContactSheet(){
         <a href="https://github.com/markosanchez800"><Card.Img className="linkphoto" src="./images/gitty.png" /></a>
         <a href="https://www.linkedin.com/in/marko-sanchez-800/"><Card.Img className="linkphoto" src="./images/linky.png" /></a>
         <a href="mailto:markosanchez800@gmail.com"><Card.Img className="linkphoto" src="./images/gmalll.png" /></a>
-        <a><Button className="butoon" variant="danger">Download My Resume Here</Button></a>
+        <a href="/Resume.pdf"><Button className="butoon" variant="danger">Download My Resume Here</Button></a>
       </Card.Body>
     </Card>
         )

@@ -5,6 +5,7 @@ import './style.css';
 function AboutMe() {
     return (
     <Card className="mx-auto" style={{ width: '55rem', backgroundColor: 'rgb(70, 69, 69)'}}>
+      <Card.Img variant="top" src="./images/bitmojee.png" style={{height:"200px", width:"200px"}}/>
   <Card.Body>
     <Card.Title className="words2">About Me</Card.Title>
     <Card.Text className="words1">

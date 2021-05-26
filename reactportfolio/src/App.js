@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Header from './components/Header/Header';
 import MyLinks from './components/NavBar/NavBar'
+import Footer from './components/Footer/Footer';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from './pages/Home/Home';
 import Projects from './pages/Projects/Projects';
@@ -20,6 +21,7 @@ class App extends Component {
       <Route exact path="/contact" component={Contact}/>
       <Route exact path="/skills" component={Skillset}/>
       </Switch>
+      <Footer />
       </div>
       </Router>
     )

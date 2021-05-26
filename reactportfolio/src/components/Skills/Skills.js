@@ -5,7 +5,7 @@ import './style.css';
 
 function Skills(){
     return (
-        <Card className="mx-auto" style={{ width: '42rem', backgroundColor: 'rgb(70, 69, 69)'  }}>
+        <Card className="mx-auto" style={{ width: '30rem', backgroundColor: 'rgb(70, 69, 69)'  }}>
         <Card.Title style={{textAlign: "center",fontSize:"30px",color:"rgba(255, 255, 255, 0.637)"}}>Skills & Technologies</Card.Title>
       <Card.Body>
             <div class="container-fluid py-5">
