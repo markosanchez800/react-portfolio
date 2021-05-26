@@ -7,11 +7,11 @@ import './style.css';
 function MyLinks(){
     return (
 <Navbar className="navi" bg="dark" variant="dark">
-    <Nav className="linkies mx-auto">
-        <Nav.Link><Link to="/">About Me</Link></Nav.Link>
-        <Nav.Link><Link to="/projects">Projects</Link></Nav.Link>
-        <Nav.Link><Link to="/contact">Contact Me</Link></Nav.Link>
-        <Nav.Link><Link to="/skills">Skills & Technologies</Link></Nav.Link>
+    <Nav className="mx-auto">
+        <Nav.Link><Link className="linkies" to="/">About Me</Link></Nav.Link>
+        <Nav.Link><Link className="linkies" to="/projects">Projects</Link></Nav.Link>
+        <Nav.Link><Link className="linkies" to="/contact">Contact Me</Link></Nav.Link>
+        <Nav.Link><Link className="linkies" to="/skills">Skills & Technologies</Link></Nav.Link>
     </Nav>
 </Navbar>
     )
