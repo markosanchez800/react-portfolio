@@ -11,7 +11,7 @@ import Skillset from './pages/Skillset/Skillset';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename = {process.env.PUBLIC_URL}>
       <div>
       <Header />
       <MyLinks />
