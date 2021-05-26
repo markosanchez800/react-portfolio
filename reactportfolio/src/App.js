@@ -1,32 +1,25 @@
 import React, {Component} from 'react';
-import ProjectCard from './components/ProjectCard/ProjectCard';
 import Header from './components/Header/Header';
-import projects from './projects.json';
 import MyLinks from './components/NavBar/NavBar'
-import AboutMe from './components/AboutMe/AboutMe';
-
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from './pages/Home/Home';
+import Projects from './pages/Projects/Projects';
+import Contact from './pages/Contact/Contact';
 
 class App extends Component {
-  state = {
-    projects: projects,
-  }
-
   render() {
     return (
+      <Router>
       <div>
       <Header />
       <MyLinks />
-      <AboutMe />
-      {this.state.projects.map(project =>
-      <ProjectCard
-      photo={project.photo}
-      name={project.name}
-      description={project.description}
-      repolink={project.repolink}
-      deplink={project.deplink}
-      />
-      )}
+      <Switch>
+      <Route exact path="/" component={Home}/>
+      <Route exact path="/projects" component={Projects}/>
+      <Route exact path="/contact" component={Contact}/>
+      </Switch>
       </div>
+      </Router>
     )
   }
 }
