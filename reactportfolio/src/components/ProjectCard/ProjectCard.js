@@ -1,20 +1,21 @@
 import React from 'react';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 import './style.css';
 
 function ProjectCard(props) {
     return (
-        <div className="card">
-            <div className='img-container'>
-                <img alt={props.name} src={props.photo} />
-            </div>
-            <ul>
-                <li>{props.name}</li>
-                <li>{props.description}</li>
-                <a href={props.repolink}><li><button>GitHub Repo</button></li></a>
-                <a href={props.deplink}><li><button>Deployed App</button></li></a>
-            </ul>
-        </div>
+    <Card className="mx-auto" style={{ width: '42rem', backgroundColor: 'rgb(70, 69, 69)'  }}>
+  <Card.Img variant="top" src={props.photo} />
+  <Card.Body>
+    <Card.Title className="words">{props.name}</Card.Title>
+    <Card.Text className="words">{props.description}</Card.Text>
+    <a href={props.repolink}><Button className="butoon" variant="danger">GitHub Repo 🐱</Button></a>
+    <a href={props.deplink}><Button className="butoon" variant="danger">Deployed App 💻</Button></a>
+  </Card.Body>
+</Card>
     )
+   
 }
 
 export default ProjectCard;

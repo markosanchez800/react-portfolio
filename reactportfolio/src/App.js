@@ -3,6 +3,7 @@ import ProjectCard from './components/ProjectCard/ProjectCard';
 import Header from './components/Header/Header';
 import projects from './projects.json';
 import MyLinks from './components/NavBar/NavBar'
+import AboutMe from './components/AboutMe/AboutMe';
 
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
       <div>
       <Header />
       <MyLinks />
+      <AboutMe />
       {this.state.projects.map(project =>
       <ProjectCard
       photo={project.photo}

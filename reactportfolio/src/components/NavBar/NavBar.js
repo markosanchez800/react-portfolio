@@ -6,11 +6,10 @@ import './style.css';
 function MyLinks(){
     return (
 <Navbar className="navi" bg="dark" variant="dark">
-    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-    <Nav className="mr-auto">
-        <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#features">Features</Nav.Link>
-        <Nav.Link href="#pricing">Pricing</Nav.Link>
+    <Nav className="mx-auto">
+        <Nav.Link href="#aboutme">About Me</Nav.Link>
+        <Nav.Link href="#projects">Projects</Nav.Link>
+        <Nav.Link href="#contact">Contact Me</Nav.Link>
     </Nav>
 </Navbar>
     )
